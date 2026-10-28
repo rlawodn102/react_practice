@@ -5,7 +5,9 @@ import './App.css';
 // import MyDiv1 from './03/MyDiv1';
 // import MyList from './04/MyList';
 // import Lotto from './05/Lotto';
-import Traffic from './06/Traffic';
+// import Traffic from './06/Traffic';
+// import MyRef from './07/MyRef';
+import MyRefAdd from './07/MyRefAdd';
 
 import { RiHomeHeartFill } from 'react-icons/ri';
 
@@ -21,7 +23,9 @@ function App() {
         {/* <MyDiv1 /> */}
         {/* <MyList /> */}
         {/* <Lotto /> */}
-        <Traffic />
+        {/* <Traffic /> */}
+        {/* <MyRef /> */}
+        <MyRefAdd />
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
         재우

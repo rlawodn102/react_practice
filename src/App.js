@@ -7,13 +7,14 @@ import './App.css';
 // import Lotto from './05/Lotto';
 // import Traffic from './06/Traffic';
 // import MyRef from './07/MyRef';
-import MyRefAdd from './07/MyRefAdd';
+// import MyRefAdd from './07/MyRefAdd';
+import Gallery from './08/Gallery';
 
 import { RiHomeHeartFill } from 'react-icons/ri';
 
 function App() {
   return (
-    <div className="flex flex-col w-full h-screen mx-auto">
+    <div className="flex flex-col w-full min-h-screen mx-auto">
       <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200'>
         <p>리액트</p>
         <p><RiHomeHeartFill /></p>
@@ -25,7 +26,8 @@ function App() {
         {/* <Lotto /> */}
         {/* <Traffic /> */}
         {/* <MyRef /> */}
-        <MyRefAdd />
+        {/* <MyRefAdd /> */}
+        <Gallery />
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
         재우
